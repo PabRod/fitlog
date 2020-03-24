@@ -1,4 +1,4 @@
-,Days since infected #1,Days since dead #1,Dead,Hospitalized,Dead - Projected,Hospitalized - Projected,Infected - Inferred,,,,,,,,,
+Date,Days since infected #1,Days since dead #1,Dead,Hospitalized,Dead - Projected,Hospitalized - Projected,Infected - Inferred,,,,,,,,,
 06/03/2020,9,0,1,5,1,14,330,,,,,,,,Fit functions (LOGEST),
 07/03/2020,10,1,1,24,1,18,430,,,,,,,,,
 08/03/2020,11,2,3,36,2,24,575,,,,,,,,1.390216585,0.7139599703
@@ -17,3 +17,4 @@
 21/03/2020,24,15,136,836,139,807,0,,,,,,,,,
 22/03/2020,25,16,179,988,193,1059,0,,,,,,,,,
 23/03/2020,26,17,213,1230,269,1390,,,,,,,,,,
+24/03/2020,27,18,276,1495,338,1819,,,,,,,,,,
