@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-""" 
+"""
 This is a quick and dirty script for fitting a time series to a logistic curve
 
 It is intended to be read side by side with ./docs/Logistic.pdf
@@ -55,7 +55,7 @@ ax.set_title('Covid-19 deaths in the Netherlands')
 ax.set_xlabel('Days since first death')
 ax.set_ylabel('Deaths')
 
-plt.savefig(date+'_deaths.png')
+plt.savefig('figs/'+date+'_deaths.png')
 
 fig, ax = plt.subplots(1, 1)
 plt.plot(days_since_death, hospitalized, '.') # Plot the data
@@ -64,7 +64,7 @@ ax.set_title('Covid-19 hospitalizations in the Netherlands')
 ax.set_xlabel('Days since first death')
 ax.set_ylabel('Hospitalizations (cumulative)')
 
-plt.savefig(date+'_hospitalizations.png')
+plt.savefig('figs/'+date+'_hospitalizations.png')
 
 print('deaths_rmin: {}'.format(deaths_rmin))
 print('deaths_kmin: {}'.format(deaths_kmin))
